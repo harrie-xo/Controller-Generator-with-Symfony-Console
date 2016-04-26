@@ -5,7 +5,7 @@ Automatict Generate File Controller to your own projects with Symfony Console
 php app repo::controller homeController
 
 ex.
-{
+
 <?php
 
 namespace Applications\Http\Controllers;
@@ -23,7 +23,7 @@ class sampleController extends BaseController
 
 	}
 }
-}
+
 
 
 # How to use with clean code?
