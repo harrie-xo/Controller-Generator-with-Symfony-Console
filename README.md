@@ -14,7 +14,7 @@ use Applications\Http\controller\BaseController;
 
 use Applications\Http\models\Users;
 
-//class sampleController extends BaseController
+class sampleController extends BaseController
 {
 
 	public function index(){
