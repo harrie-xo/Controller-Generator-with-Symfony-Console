@@ -1,0 +1,21 @@
+{
+    "name": "Controller Generator with Symfony Console 0.0.28",
+    "descriptions": "Controller Generator with Symfony Console",
+    "keywords": [ "controller",  "generator",  "Framework",  "symfony", "console" ],
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "author":[
+        {
+           "name": "Harrieanto",
+           "email": "harrieanto31@yahoo.com"
+        }
+    ],
+    "autoload": {
+    },
+
+    "require":{
+        "symfony/console": "^3.0"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "~4.0"
+    }
+}
