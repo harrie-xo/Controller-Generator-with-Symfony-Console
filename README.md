@@ -14,17 +14,6 @@ use Applications\Http\controller\BaseController;
 
 use Applications\Http\models\Users;
 
-use Applications\Provider\Package\Resources;
-
-use Applications\Provider\Signature\Authentication\Authentication;
-
-use Applications\Provider\Signature\Authentication\Token;
-
-use Applications\Provider\Signature\Authentication\Request;
-
-use Applications\Provider\Package\UrlGenerator\View;
-
-
 //class sampleController extends BaseController
 {
 
@@ -39,7 +28,9 @@ use Applications\Provider\Package\UrlGenerator\View;
 
 # How to use with clean code?
 php app repo::controller homeController --clear
+
 ex.
+
 <?php
 
 namespace Applications\Http\Controllers;
@@ -47,17 +38,6 @@ namespace Applications\Http\Controllers;
 use Applications\Http\controller\BaseController;
 
 use Applications\Http\models\Users;
-
-use Applications\Provider\Package\Resources;
-
-use Applications\Provider\Signature\Authentication\Authentication;
-
-use Applications\Provider\Signature\Authentication\Token;
-
-use Applications\Provider\Signature\Authentication\Request;
-
-use Applications\Provider\Package\UrlGenerator\View;
-
 
 class homeController
 {
