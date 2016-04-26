@@ -3,7 +3,9 @@ Automatict Generate File Controller to your own projects with Symfony Console
 
 # How to use by default?
 php app repo::controller homeController
+
 ex.
+
 <?php
 
 namespace Applications\Http\Controllers;
@@ -23,7 +25,7 @@ use Applications\Provider\Signature\Authentication\Request;
 use Applications\Provider\Package\UrlGenerator\View;
 
 
-class sampleController extends BaseController
+//class sampleController extends BaseController
 {
 
 	public function index(){
